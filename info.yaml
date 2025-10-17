@@ -1,7 +1,7 @@
 # Tiny Tapeout project information
 project:
-  title:        ""      # Project title
-  author:       ""      # Your name
+  title:        "Oscillator"      # Project title
+  author:       "UABC"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  ""      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
@@ -15,7 +15,7 @@ project:
   uses_3v3: false       # Set to true if your project uses 3.3V (VAPWR) in addition to 1.8V (VDPWR)
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "tt_um_example"
+  top_module:  "tt_um_prueba"
 
   # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
   source_files:        
@@ -44,18 +44,18 @@ pinout:
   uo[7]: ""
 
   # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
+  uio[0]: "enable1"
+  uio[1]: "emable2"
+  uio[2]: "outputP"
+  uio[3]: "outputN"
   uio[4]: ""
   uio[5]: ""
   uio[6]: ""
   uio[7]: ""
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
-  ua[0]: ""
-  ua[1]: ""
+  ua[0]: "Cap_Positive"
+  ua[1]: "Cap_Negative"
   ua[2]: ""
   ua[3]: ""
   ua[4]: ""
